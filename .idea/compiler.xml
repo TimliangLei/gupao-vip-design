@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="model-factory-method" />
+        <module name="spring-boot-demo" />
         <module name="model-factory-interface" />
         <module name="model-facotry-simple" />
       </profile>
@@ -16,6 +17,12 @@
       <module name="model-facotry-simple" target="1.5" />
       <module name="model-factory-interface" target="1.5" />
       <module name="model-factory-method" target="1.5" />
+      <module name="spring-boot-demo" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-demo" options="-parameters" />
+    </option>
   </component>
 </project>
