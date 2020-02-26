@@ -12,6 +12,9 @@
         <module>model-facotry-simple</module>
         <module>model-factory-method</module>
         <module>model-factory-interface</module>
+        <module>private-dubbo-server</module>
+        <module>private-dubbo-client</module>
+        <module>pattern-singleton</module>
     </modules>
 
 
