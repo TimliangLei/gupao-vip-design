@@ -1,7 +1,6 @@
-package com.dream.ltl.springboot.demo1;
+package com.dream.ltl.springboot.javaBeandemo1;
 
-import com.dream.ltl.springboot.demo2.OtherClass;
-import com.dream.ltl.springboot.demo2.OtherConfig;
+import com.dream.ltl.springboot.javaBeandemo2.OtherConfig;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;

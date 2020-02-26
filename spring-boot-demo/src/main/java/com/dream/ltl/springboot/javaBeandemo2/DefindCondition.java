@@ -1,4 +1,4 @@
-package com.dream.ltl.springboot.demo2;
+package com.dream.ltl.springboot.javaBeandemo2;
 
 import org.springframework.context.annotation.Condition;
 import org.springframework.context.annotation.ConditionContext;
