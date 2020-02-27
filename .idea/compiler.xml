@@ -7,9 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="model-factory-method" />
-        <module name="spring-boot-demo" />
-        <module name="model-factory-interface" />
         <module name="model-facotry-simple" />
+        <module name="private-dubbo-server" />
+        <module name="spring-boot-demo" />
+        <module name="private-dubbo-client" />
+        <module name="model-factory-interface" />
+        <module name="pattern-singleton" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +20,9 @@
       <module name="model-facotry-simple" target="1.5" />
       <module name="model-factory-interface" target="1.5" />
       <module name="model-factory-method" target="1.5" />
+      <module name="pattern-singleton" target="1.5" />
+      <module name="private-dubbo-client" target="1.5" />
+      <module name="private-dubbo-server" target="1.5" />
       <module name="spring-boot-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
