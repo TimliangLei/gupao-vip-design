@@ -16,14 +16,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="gupaoedu-vip-design" target="1.5" />
-      <module name="model-facotry-simple" target="1.5" />
-      <module name="model-factory-interface" target="1.5" />
-      <module name="model-factory-method" target="1.5" />
-      <module name="pattern-singleton" target="1.5" />
-      <module name="private-dubbo-client" target="1.5" />
-      <module name="private-dubbo-server" target="1.5" />
-      <module name="spring-boot-demo" target="1.8" />
+      <module name="gupaoedu-vip-design" target="8" />
+      <module name="model-facotry-simple" target="8" />
+      <module name="model-factory-interface" target="8" />
+      <module name="model-factory-method" target="8" />
+      <module name="pattern-singleton" target="8" />
+      <module name="private-dubbo-client" target="8" />
+      <module name="private-dubbo-server" target="8" />
+      <module name="spring-boot-demo" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
