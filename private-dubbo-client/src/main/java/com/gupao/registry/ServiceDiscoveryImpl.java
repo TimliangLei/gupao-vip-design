@@ -18,9 +18,10 @@ public class ServiceDiscoveryImpl implements IServiceDiscovery {
 
     private CuratorFramework curatorFramework;
     public ServiceDiscoveryImpl(){
-        curatorFramework= CuratorFrameworkFactory.builder().
-                connectString(ZkConfig.CONNECTION_STR).sessionTimeoutMs(4000).
-                retryPolicy(new ExponentialBackoffRetry(1000,10)).build();
+        curatorFramework= CuratorFrameworkFactory.builder()
+                .connectString(ZkConfig.CONNECTION_STR)
+                .sessionTimeoutMs(4000)
+                .retryPolicy(new ExponentialBackoffRetry(1000,10)).build();
         curatorFramework.start();
     }
 

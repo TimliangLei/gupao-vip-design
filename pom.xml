@@ -15,7 +15,16 @@
         <module>private-dubbo-server</module>
         <module>private-dubbo-client</module>
         <module>pattern-singleton</module>
+        <module>spring-v1.0</module>
+        <module>pattern-prototype</module>
+        <module>pattern-builder</module>
     </modules>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.6</version>
+        </dependency>
+    </dependencies>
 </project>

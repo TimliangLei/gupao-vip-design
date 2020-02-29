@@ -6,10 +6,13 @@
       <module fileurl="file://$PROJECT_DIR$/model-facotry-simple/model-facotry-simple.iml" filepath="$PROJECT_DIR$/model-facotry-simple/model-facotry-simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/model-factory-interface/model-factory-interface.iml" filepath="$PROJECT_DIR$/model-factory-interface/model-factory-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/model-factory-method/model-factory-method.iml" filepath="$PROJECT_DIR$/model-factory-method/model-factory-method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-builder/pattern-builder.iml" filepath="$PROJECT_DIR$/pattern-builder/pattern-builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-prototype/pattern-prototype.iml" filepath="$PROJECT_DIR$/pattern-prototype/pattern-prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-singleton/pattern-singleton.iml" filepath="$PROJECT_DIR$/pattern-singleton/pattern-singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/private-dubbo-client/private-dubbo-client.iml" filepath="$PROJECT_DIR$/private-dubbo-client/private-dubbo-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/private-dubbo-server/private-dubbo-server.iml" filepath="$PROJECT_DIR$/private-dubbo-server/private-dubbo-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" filepath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-v1.0/spring-v1.0.iml" filepath="$PROJECT_DIR$/spring-v1.0/spring-v1.0.iml" />
     </modules>
   </component>
 </project>
