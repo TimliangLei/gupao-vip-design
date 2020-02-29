@@ -19,22 +19,23 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="gupaoedu-vip-design" target="8" />
-      <module name="model-facotry-simple" target="8" />
-      <module name="model-factory-interface" target="8" />
-      <module name="model-factory-method" target="8" />
-      <module name="pattern-builder" target="8" />
-      <module name="pattern-prototype" target="8" />
-      <module name="pattern-singleton" target="8" />
-      <module name="private-dubbo-client" target="8" />
-      <module name="private-dubbo-server" target="8" />
-      <module name="spring-boot-demo" target="8" />
-      <module name="spring-v1.0" target="8" />
+      <module name="gupaoedu-vip-design" target="1.5" />
+      <module name="model-facotry-simple" target="1.5" />
+      <module name="model-factory-interface" target="1.5" />
+      <module name="model-factory-method" target="1.5" />
+      <module name="pattern-builder" target="1.5" />
+      <module name="pattern-prototype" target="1.5" />
+      <module name="pattern-singleton" target="1.5" />
+      <module name="private-dubbo-client" target="6" />
+      <module name="private-dubbo-server" target="1.5" />
+      <module name="spring-boot-demo" target="1.8" />
+      <module name="spring-v1.0" target="1.6" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-demo" options="-parameters" />
+      <module name="spring-v1.0" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar&quot;" />
     </option>
   </component>
 </project>
