@@ -1,5 +1,7 @@
 package com.dream.ltl.prototype.shallow;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import lombok.Data;
 
 import java.io.*;
@@ -37,6 +39,13 @@ public class ConcreatePrototype implements Cloneable , Serializable {
             e.printStackTrace();
         }
         return null;
+    }
+
+    public ConcreatePrototype deepCloneByJSON(){
+        String str = JSON.toJSONString(this);
+
+        ConcreatePrototype object = JSON.parseObject(str,ConcreatePrototype.class);
+        return  object;
     }
 
     public ConcreatePrototype deepClone(){

@@ -15,7 +15,7 @@ public class Client {
         prototype.setHobbies(hobbies);
 
 
-        ConcreatePrototype cloneType = (ConcreatePrototype) prototype.deepCloneHobbies();
+        ConcreatePrototype cloneType = (ConcreatePrototype) prototype.deepCloneByJSON();
         cloneType.getHobbies().add("gym");
         System.out.println(cloneType);
         System.out.println(prototype);
