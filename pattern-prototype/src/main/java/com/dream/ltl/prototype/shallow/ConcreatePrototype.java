@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //建造模式本来就不是单例模式
+
 @Data
 public class ConcreatePrototype implements Cloneable , Serializable {
     private int age;

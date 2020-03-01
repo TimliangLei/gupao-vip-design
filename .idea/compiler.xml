@@ -6,16 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-demo" />
         <module name="spring-v1.0" />
-        <module name="pattern-singleton" />
         <module name="model-factory-method" />
+        <module name="pattern-proxy" />
         <module name="model-facotry-simple" />
-        <module name="private-dubbo-server" />
         <module name="pattern-prototype" />
+        <module name="pattern-builder" />
+        <module name="private-dubbo-server" />
+        <module name="spring-boot-demo" />
         <module name="private-dubbo-client" />
         <module name="model-factory-interface" />
-        <module name="pattern-builder" />
+        <module name="pattern-singleton" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +26,7 @@
       <module name="model-factory-method" target="1.5" />
       <module name="pattern-builder" target="1.5" />
       <module name="pattern-prototype" target="1.5" />
+      <module name="pattern-proxy" target="1.5" />
       <module name="pattern-singleton" target="1.5" />
       <module name="private-dubbo-client" target="6" />
       <module name="private-dubbo-server" target="1.5" />

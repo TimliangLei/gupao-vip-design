@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/model-factory-method/model-factory-method.iml" filepath="$PROJECT_DIR$/model-factory-method/model-factory-method.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-builder/pattern-builder.iml" filepath="$PROJECT_DIR$/pattern-builder/pattern-builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-prototype/pattern-prototype.iml" filepath="$PROJECT_DIR$/pattern-prototype/pattern-prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-proxy/pattern-proxy.iml" filepath="$PROJECT_DIR$/pattern-proxy/pattern-proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-singleton/pattern-singleton.iml" filepath="$PROJECT_DIR$/pattern-singleton/pattern-singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/private-dubbo-client/private-dubbo-client.iml" filepath="$PROJECT_DIR$/private-dubbo-client/private-dubbo-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/private-dubbo-server/private-dubbo-server.iml" filepath="$PROJECT_DIR$/private-dubbo-server/private-dubbo-server.iml" />

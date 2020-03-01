@@ -21,6 +21,7 @@
         <module>spring-v1.0</module>
         <module>pattern-prototype</module>
         <module>pattern-builder</module>
+        <module>pattern-proxy</module>
     </modules>
 
     <dependencies>
