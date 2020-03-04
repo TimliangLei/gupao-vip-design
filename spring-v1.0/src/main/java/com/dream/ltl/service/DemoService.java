@@ -1,6 +1,7 @@
 package com.dream.ltl.service;
 
-import com.gupaoedu.mvcframework.annotation.GPService;
+
+import com.dream.ltl.mvcframework.annotations.GPService;
 
 /**
  * 核心业务逻辑
