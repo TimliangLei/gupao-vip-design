@@ -1,6 +1,8 @@
 package com.dream.ltl.dynamicproxy.jdkproxy.pojo;
 
 
+import com.dream.ltl.dynamicproxy.jdkproxy.IPerson;
+
 public class Son implements IPerson {
 
     @Override

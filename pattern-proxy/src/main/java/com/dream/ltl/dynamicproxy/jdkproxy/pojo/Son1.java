@@ -1,5 +1,7 @@
 package com.dream.ltl.dynamicproxy.jdkproxy.pojo;
 
+import com.dream.ltl.dynamicproxy.jdkproxy.IPerson;
+
 public class Son1 implements IPerson {
     public void findLove() {
         System.out.println("son1 肤白貌美，大长腿");

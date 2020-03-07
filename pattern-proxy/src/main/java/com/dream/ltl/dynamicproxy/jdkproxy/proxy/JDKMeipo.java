@@ -1,7 +1,7 @@
-package com.dream.ltl.dynamicproxy.jdkproxy;
+package com.dream.ltl.dynamicproxy.jdkproxy.proxy;
 
-import com.dream.ltl.dynamicproxy.jdkproxy.pojo.IPerson;
 
+import com.dream.ltl.dynamicproxy.jdkproxy.IPerson;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;

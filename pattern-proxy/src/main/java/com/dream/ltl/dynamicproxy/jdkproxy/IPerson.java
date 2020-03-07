@@ -1,4 +1,4 @@
-package com.dream.ltl.dynamicproxy.jdkproxy.pojo;
+package com.dream.ltl.dynamicproxy.jdkproxy;
 
 public interface IPerson {
     void findLove();

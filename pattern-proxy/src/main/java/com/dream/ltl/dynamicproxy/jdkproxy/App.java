@@ -1,8 +1,8 @@
 package com.dream.ltl.dynamicproxy.jdkproxy;
 
-import com.dream.ltl.dynamicproxy.jdkproxy.pojo.IPerson;
 import com.dream.ltl.dynamicproxy.jdkproxy.pojo.Son;
 import com.dream.ltl.dynamicproxy.jdkproxy.pojo.Son1;
+import com.dream.ltl.dynamicproxy.jdkproxy.proxy.JDKMeipo;
 import sun.misc.ProxyGenerator;
 
 import java.io.FileOutputStream;

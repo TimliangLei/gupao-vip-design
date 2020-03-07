@@ -22,6 +22,9 @@
         <module>pattern-prototype</module>
         <module>pattern-builder</module>
         <module>pattern-proxy</module>
+        <module>pattern-decorator</module>
+        <module>pattern-flyweight</module>
+        <module>pattern-composite</module>
     </modules>
 
     <dependencies>

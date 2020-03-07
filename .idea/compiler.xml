@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/pattern-proxy/src/main/java/com/dream/ltl/dbroute/proxy/OrderServiceStaticProxy.java" />
+      <file url="file://$PROJECT_DIR$/pattern-proxy/src/main/java/com/dream/ltl/dbroute/DBRouteProxyTest.java" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-v1.0" />
         <module name="model-factory-method" />
-        <module name="private-dubbo-server" />
-        <module name="spring-boot-demo" />
-        <module name="pattern-prototype" />
-        <module name="pattern-singleton" />
-        <module name="private-dubbo-client" />
         <module name="model-factory-interface" />
-        <module name="pattern-builder" />
+        <module name="pattern-flyweight" />
+        <module name="spring-v1.0" />
+        <module name="private-dubbo-client" />
+        <module name="pattern-proxy" />
+        <module name="pattern-composite" />
         <module name="model-facotry-simple" />
+        <module name="pattern-prototype" />
+        <module name="private-dubbo-server" />
+        <module name="pattern-builder" />
+        <module name="spring-boot-demo" />
+        <module name="pattern-singleton" />
+        <module name="pattern-decorator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +32,9 @@
       <module name="model-factory-interface" target="8" />
       <module name="model-factory-method" target="8" />
       <module name="pattern-builder" target="8" />
+      <module name="pattern-composite" target="8" />
+      <module name="pattern-decorator" target="8" />
+      <module name="pattern-flyweight" target="8" />
       <module name="pattern-prototype" target="8" />
       <module name="pattern-proxy" target="8" />
       <module name="pattern-singleton" target="8" />
