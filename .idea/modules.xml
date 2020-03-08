@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/model-facotry-simple/model-facotry-simple.iml" filepath="$PROJECT_DIR$/model-facotry-simple/model-facotry-simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/model-factory-interface/model-factory-interface.iml" filepath="$PROJECT_DIR$/model-factory-interface/model-factory-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/model-factory-method/model-factory-method.iml" filepath="$PROJECT_DIR$/model-factory-method/model-factory-method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-adpter/pattern-adpter.iml" filepath="$PROJECT_DIR$/pattern-adpter/pattern-adpter.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-builder/pattern-builder.iml" filepath="$PROJECT_DIR$/pattern-builder/pattern-builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-composite/pattern-composite.iml" filepath="$PROJECT_DIR$/pattern-composite/pattern-composite.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-decorator/pattern-decorator.iml" filepath="$PROJECT_DIR$/pattern-decorator/pattern-decorator.iml" />

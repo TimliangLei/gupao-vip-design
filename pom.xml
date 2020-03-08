@@ -25,6 +25,7 @@
         <module>pattern-decorator</module>
         <module>pattern-flyweight</module>
         <module>pattern-composite</module>
+        <module>pattern-adpter</module>
     </modules>
 
     <dependencies>

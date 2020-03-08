@@ -11,6 +11,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="model-factory-method" />
+        <module name="pattern-adpter" />
         <module name="model-factory-interface" />
         <module name="pattern-flyweight" />
         <module name="spring-v1.0" />
@@ -31,6 +32,7 @@
       <module name="model-facotry-simple" target="8" />
       <module name="model-factory-interface" target="8" />
       <module name="model-factory-method" target="8" />
+      <module name="pattern-adpter" target="8" />
       <module name="pattern-builder" target="8" />
       <module name="pattern-composite" target="8" />
       <module name="pattern-decorator" target="8" />
