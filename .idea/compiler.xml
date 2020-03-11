@@ -20,10 +20,11 @@
         <module name="pattern-composite" />
         <module name="model-facotry-simple" />
         <module name="pattern-prototype" />
+        <module name="pattern-singleton" />
         <module name="private-dubbo-server" />
         <module name="pattern-builder" />
         <module name="spring-boot-demo" />
-        <module name="pattern-singleton" />
+        <module name="pattern-bridge" />
         <module name="pattern-decorator" />
       </profile>
     </annotationProcessing>
@@ -33,6 +34,7 @@
       <module name="model-factory-interface" target="8" />
       <module name="model-factory-method" target="8" />
       <module name="pattern-adapter" target="8" />
+      <module name="pattern-bridge" target="8" />
       <module name="pattern-builder" target="8" />
       <module name="pattern-composite" target="8" />
       <module name="pattern-decorator" target="8" />
@@ -49,7 +51,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-demo" options="-parameters" />
-      <module name="spring-v1.0" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar&quot;" />
+      <module name="spring-v1.0" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\jbr/lib/rt.jar&quot;" />
     </option>
   </component>
 </project>
