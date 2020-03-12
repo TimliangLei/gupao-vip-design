@@ -11,20 +11,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="model-factory-method" />
-        <module name="pattern-adapter" />
         <module name="model-factory-interface" />
+        <module name="pattern-delegate" />
         <module name="pattern-flyweight" />
         <module name="spring-v1.0" />
         <module name="private-dubbo-client" />
         <module name="pattern-proxy" />
-        <module name="pattern-composite" />
+        <module name="pattern-adapter" />
         <module name="model-facotry-simple" />
         <module name="pattern-prototype" />
-        <module name="pattern-singleton" />
+        <module name="pattern-bridge" />
         <module name="private-dubbo-server" />
+        <module name="pattern-composite" />
         <module name="pattern-builder" />
         <module name="spring-boot-demo" />
-        <module name="pattern-bridge" />
+        <module name="pattern-singleton" />
         <module name="pattern-decorator" />
       </profile>
     </annotationProcessing>
@@ -38,6 +39,7 @@
       <module name="pattern-builder" target="8" />
       <module name="pattern-composite" target="8" />
       <module name="pattern-decorator" target="8" />
+      <module name="pattern-delegate" target="8" />
       <module name="pattern-flyweight" target="8" />
       <module name="pattern-prototype" target="8" />
       <module name="pattern-proxy" target="8" />
@@ -51,7 +53,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-demo" options="-parameters" />
-      <module name="spring-v1.0" options="-verbose -bootclasspath &quot;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\jbr/lib/rt.jar&quot;" />
+      <module name="spring-v1.0" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar&quot;" />
     </option>
   </component>
 </project>

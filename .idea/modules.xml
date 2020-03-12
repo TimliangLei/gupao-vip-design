@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/pattern-builder/pattern-builder.iml" filepath="$PROJECT_DIR$/pattern-builder/pattern-builder.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-composite/pattern-composite.iml" filepath="$PROJECT_DIR$/pattern-composite/pattern-composite.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-decorator/pattern-decorator.iml" filepath="$PROJECT_DIR$/pattern-decorator/pattern-decorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-delegate/pattern-delegate.iml" filepath="$PROJECT_DIR$/pattern-delegate/pattern-delegate.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-flyweight/pattern-flyweight.iml" filepath="$PROJECT_DIR$/pattern-flyweight/pattern-flyweight.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-prototype/pattern-prototype.iml" filepath="$PROJECT_DIR$/pattern-prototype/pattern-prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-proxy/pattern-proxy.iml" filepath="$PROJECT_DIR$/pattern-proxy/pattern-proxy.iml" />
