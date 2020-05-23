@@ -7,8 +7,8 @@
         <servlet-name>gpmvc</servlet-name>
         <servlet-class>com.dream.ltl.mvcframework.v1.servlet.GPDispatcherServlet</servlet-class>
         <init-param>
-            <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:applicationContext.properties</param-value>
+            <param-name>contextConfigLv1ocation</param-name>
+            <param-value>applicationContext.properties</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>

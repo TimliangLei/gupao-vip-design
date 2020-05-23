@@ -1,0 +1,13 @@
+1、调用Servlet init() 方法
+2、读取配置文件(properties,xml,yml)->BeanDefinition->实例对象BeanWrapper
+3、扫描相关类
+4、初始化IoC容器，并且实例化对象
+5、完成DI注入
+
+
+
+在调用ServletInit方法时候，就要实例化ApplicationContext
+
+spring默认是单例，而且是延时加载(@Lazy)
+DI是在初始化以后发生的
+Spring 中发生DI由谁触发——getBean()->立即发生DI

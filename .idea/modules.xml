@@ -9,17 +9,23 @@
       <module fileurl="file://$PROJECT_DIR$/pattern-adapter/pattern-adapter.iml" filepath="$PROJECT_DIR$/pattern-adapter/pattern-adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-bridge/pattern-bridge.iml" filepath="$PROJECT_DIR$/pattern-bridge/pattern-bridge.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-builder/pattern-builder.iml" filepath="$PROJECT_DIR$/pattern-builder/pattern-builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-chain/pattern-chain.iml" filepath="$PROJECT_DIR$/pattern-chain/pattern-chain.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-composite/pattern-composite.iml" filepath="$PROJECT_DIR$/pattern-composite/pattern-composite.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-decorator/pattern-decorator.iml" filepath="$PROJECT_DIR$/pattern-decorator/pattern-decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-delegate/pattern-delegate.iml" filepath="$PROJECT_DIR$/pattern-delegate/pattern-delegate.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-flyweight/pattern-flyweight.iml" filepath="$PROJECT_DIR$/pattern-flyweight/pattern-flyweight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-iterator/pattern-iterator.iml" filepath="$PROJECT_DIR$/pattern-iterator/pattern-iterator.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-prototype/pattern-prototype.iml" filepath="$PROJECT_DIR$/pattern-prototype/pattern-prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-proxy/pattern-proxy.iml" filepath="$PROJECT_DIR$/pattern-proxy/pattern-proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-singleton/pattern-singleton.iml" filepath="$PROJECT_DIR$/pattern-singleton/pattern-singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-strategy/pattern-strategy.iml" filepath="$PROJECT_DIR$/pattern-strategy/pattern-strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-template/pattern-template.iml" filepath="$PROJECT_DIR$/pattern-template/pattern-template.iml" />
       <module fileurl="file://$PROJECT_DIR$/private-dubbo-client/private-dubbo-client.iml" filepath="$PROJECT_DIR$/private-dubbo-client/private-dubbo-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/private-dubbo-server/private-dubbo-server.iml" filepath="$PROJECT_DIR$/private-dubbo-server/private-dubbo-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-annotation/spring-annotation.iml" filepath="$PROJECT_DIR$/spring-annotation/spring-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" filepath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-v1.0/spring-v1.0.iml" filepath="$PROJECT_DIR$/spring-v1.0/spring-v1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-v2.0-ioc/spring-v2.0-ioc.iml" filepath="$PROJECT_DIR$/spring-v2.0-ioc/spring-v2.0-ioc.iml" />
     </modules>
   </component>
 </project>

@@ -11,49 +11,62 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="model-factory-method" />
+        <module name="pattern-singleton" />
         <module name="model-factory-interface" />
         <module name="pattern-delegate" />
         <module name="pattern-flyweight" />
         <module name="spring-v1.0" />
-        <module name="private-dubbo-client" />
+        <module name="pattern-strategy" />
         <module name="pattern-proxy" />
         <module name="pattern-adapter" />
+        <module name="spring-boot-demo" />
         <module name="model-facotry-simple" />
         <module name="pattern-prototype" />
-        <module name="pattern-bridge" />
+        <module name="pattern-template" />
         <module name="private-dubbo-server" />
         <module name="pattern-composite" />
         <module name="pattern-builder" />
-        <module name="spring-boot-demo" />
-        <module name="pattern-singleton" />
+        <module name="pattern-chain" />
+        <module name="spring-v2.0-ioc" />
+        <module name="pattern-bridge" />
+        <module name="pattern-iterator" />
+        <module name="private-dubbo-client" />
+        <module name="spring-annotation" />
         <module name="pattern-decorator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="gupaoedu-vip-design" target="8" />
-      <module name="model-facotry-simple" target="8" />
-      <module name="model-factory-interface" target="8" />
-      <module name="model-factory-method" target="8" />
-      <module name="pattern-adapter" target="8" />
-      <module name="pattern-bridge" target="8" />
-      <module name="pattern-builder" target="8" />
-      <module name="pattern-composite" target="8" />
-      <module name="pattern-decorator" target="8" />
-      <module name="pattern-delegate" target="8" />
-      <module name="pattern-flyweight" target="8" />
-      <module name="pattern-prototype" target="8" />
+      <module name="gupaoedu-vip-design" target="1.8" />
+      <module name="model-facotry-simple" target="1.8" />
+      <module name="model-factory-interface" target="1.8" />
+      <module name="model-factory-method" target="1.8" />
+      <module name="pattern-adapter" target="1.8" />
+      <module name="pattern-bridge" target="1.8" />
+      <module name="pattern-builder" target="1.8" />
+      <module name="pattern-chain" target="1.8" />
+      <module name="pattern-composite" target="1.8" />
+      <module name="pattern-decorator" target="1.8" />
+      <module name="pattern-delegate" target="1.8" />
+      <module name="pattern-flyweight" target="1.8" />
+      <module name="pattern-iterator" target="1.8" />
+      <module name="pattern-prototype" target="1.8" />
       <module name="pattern-proxy" target="8" />
-      <module name="pattern-singleton" target="8" />
+      <module name="pattern-singleton" target="1.8" />
+      <module name="pattern-strategy" target="1.8" />
+      <module name="pattern-template" target="1.8" />
       <module name="private-dubbo-client" target="6" />
-      <module name="private-dubbo-server" target="8" />
+      <module name="private-dubbo-server" target="1.8" />
+      <module name="spring-annotation" target="1.8" />
       <module name="spring-boot-demo" target="1.8" />
       <module name="spring-v1.0" target="1.6" />
+      <module name="spring-v2.0-ioc" target="1.6" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-demo" options="-parameters" />
       <module name="spring-v1.0" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar&quot;" />
+      <module name="spring-v2.0-ioc" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar&quot;" />
     </option>
   </component>
 </project>

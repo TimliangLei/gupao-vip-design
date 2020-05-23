@@ -28,6 +28,12 @@
         <module>pattern-adapter</module>
         <module>pattern-bridge</module>
         <module>pattern-delegate</module>
+        <module>pattern-template</module>
+        <module>pattern-strategy</module>
+        <module>pattern-chain</module>
+        <module>pattern-iterator</module>
+        <module>spring-annotation</module>
+        <module>spring-v2.0-ioc</module>
     </modules>
 
     <dependencies>
@@ -43,9 +49,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
                 <configuration>
-                    <source>8</source>
-                    <target>8</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>

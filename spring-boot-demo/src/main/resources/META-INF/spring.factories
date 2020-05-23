@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.dream.ltl.springboot.startDemo.TestAutoConfiguration
+  com.dream.ltl.app.springboot.startDemo.TestAutoConfiguration
