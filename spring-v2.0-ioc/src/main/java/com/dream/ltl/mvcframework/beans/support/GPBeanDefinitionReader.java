@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Properties;
 
 public class GPBeanDefinitionReader {
+
     //保存application.properties配置文件
     private Properties contextConfig = new Properties();
     //    保存所有扫描到的类名 享元模式，缓存
@@ -36,7 +37,7 @@ public class GPBeanDefinitionReader {
                     //2、自定义
                     //3、接口注入
                     for(Class<?> i:beanClass.getInterfaces()){
-                        result.add(doCreateBeanDefinition(toLowerFirstCase(beanClass.getSimpleName()),beanClass.getName()));
+                        result.add(doCreateBeanDefinition(toLowerFirstCase(i.getSimpleName()),beanClass.getName()));
                     }
                 }
 
@@ -92,5 +93,9 @@ public class GPBeanDefinitionReader {
                 }
             }
         }
+    }
+
+    public Properties getContextConfig() {
+        return contextConfig;
     }
 }
